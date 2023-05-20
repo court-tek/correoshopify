@@ -1,0 +1,82 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .link-color {
+        color: #004c3f;
+        text-decoration: none;
+      }
+
+      .link-color:hover {
+        font-weight: bold;
+        color: #004c3f;
+        text-decoration: underline;
+      }
+
+      .small-link-color {
+        color: #008060;
+        text-decoration: none;
+      }
+
+      .small-link-color:hover {
+        font-weight: bold;
+        color: #008060;
+        text-decoration: underline;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .header {
+        background-color: #004c3f;
+      }
+      .section-padding {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .shopify-drk-green-text {
+        color: "#004c3f";
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-include path="./components/header.mjml" />
+    <mj-raw>
+      <!-- 3 line divider -->
+    </mj-raw>
+    <mj-section background-color="#ffffff" css-class="section-padding">
+      <mj-column padding="20px 0 38px 0">
+        <mj-text css-class="header-title shopify-drk-green-text" font-size="58px" font-weight="bold">
+          What's New
+        </mj-text>
+        <mj-text css-class="header-title shopify-drk-green-text" font-size="18px" font-weight="normal">
+          July 18, 2028
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./components/3-line.mjml" />
+    <mj-raw>
+      <!-- 3 line divider -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image padding-bottom="20px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/image.jpg" />
+      </mj-column>
+      <mj-column>
+        <mj-text color="#004c3f" padding-bottom="20px" font-size="24px " font-weight="bold">
+          <a href="https://shopify.com/blog" class="link-color">Find More Ways to sell with pre-orders</a>
+        </mj-text>
+        <mj-text color="#111" padding-bottom="20px" font-size="14px " font-weight="normal" line-height="20px">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora voluptatem iste officia esse laboriosam quas quidem deleniti quo. Tempore, consequatur dolorum. Harum laboriosam, quam voluptate deleniti hic ab vel eaque.
+        </mj-text>
+        <mj-text color="#004c3f" padding-bottom="20px" font-size="14px " font-weight="bold">
+          <a href="https://shopify.com/blog" class="link-color">Learn More</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-include path="./components/3-line.mjml" />
+    <mj-include path="./components/footer.mjml" />
+  </mj-body>
+</mjml>
