@@ -32,6 +32,7 @@
         max-width: 280px;
         padding: 40px 0 60px;
       }
+
       .header {
         background-color: #004c3f;
       }
@@ -44,6 +45,7 @@
       .shopify-drk-green-text {
         color: "#004c3f";
       }
+
       .footer {
         background-image: url('http://127.0.0.1:5500/mjml-course/shopify-email/assets/bg-colors.png');
         background-size: 600px;
@@ -123,22 +125,38 @@
             <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/tw.png" width="27px" height="27px" alt="twitter" />
           </mj-column>
           <mj-column>
-            <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/insta.png" width="27px" height="27px "alt="instagram" />
+            <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/insta.png" width="27px" height="27px " alt="instagram" />
           </mj-column>
           <mj-column>
-            <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/snap.png" width="27px" height="27px "alt="snapchat" />
+            <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/snap.png" width="27px" height="27px " alt="snapchat" />
           </mj-column>
           <mj-column>
-            <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/in.png" width="27px" height="27px "alt="linkedin" />
+            <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/in.png" width="27px" height="27px " alt="linkedin" />
           </mj-column>
           <mj-column>
-            <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/pin.png" width="27px" height="27px "alt="pinterest" />
+            <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/pin.png" width="27px" height="27px " alt="pinterest" />
           </mj-column>
           <mj-column>
-            <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/yt.png" width="27px" height="27px "alt="youtube" />
+            <mj-image padding="0 5px" src="http://127.0.0.1:5500/mjml-course/shopify-email/assets/yt.png" width="27px" height="27px " alt="youtube" />
           </mj-column>
         </mj-group>
       </mj-section>
+      <mj-section padding="20px 0 0">
+        <mj-column padding="0">
+          <mj-text font-size="10px" align="center">
+            &copy; Shopify, 151 O' Connor Street, Ground Floor, Ottawa ON, K2P 2L8
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0 0 60px">
+        <mj-column padding="0">
+          <mj-text font-size="10px" align="center">
+            <a href="#" class="footer-links">Unsubscribe</a> |
+            <a href="#" class="footer-links">Manage your email preferences</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
     </mj-wrapper>
     <mj-include path="./components/footer.mjml" />
   </mj-body>
